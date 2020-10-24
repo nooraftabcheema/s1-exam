@@ -1,0 +1,883 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP18-BSE-010</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+
+  <!--Top menu with logo-->
+    <nav class="navbar navbar-expand-lg navbar-light light_border" id="TopMenu">
+      <img src="images\Logo.jpg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> <!--Responsive button-->
+        <div class="collapse navbar-collapse row " id="navbarNav">
+            <div class="col-md-6 "><p id="italic_font_support_us">Support us</p></div>
+            <div class="col-md-2"><button class=" btn " id="menu_Btn_red">Contribute</button></div>
+            <div class="col-md-2"><button class="btn " id="menu_Btn_black">Subscribe</button></div>
+            <div class="col-md-1 light_border_sides"><b>LOGIN</b></div>
+            <div class="col-md-1 light_border_sides" ><img src="images\menu.png" class="icon"></div>
+        </div>
+      </nav>
+
+      <!---Botton menu-->
+      <nav class="navbar navbar-expand-lg  light_border">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link Bottom_menu_text Bottom_menu_text_active" href="#">NEWS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">CORONAVIRUS UPDATES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">UK POLITICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">US POLITICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">UK POLITICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">2020 ELECTION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">VOICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">SPORT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">CULTURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">INDY/LIFE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">INDYBEST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">INDY100</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">LONGREADS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">VOUCHERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Bottom_menu_text" href="#">PREMIUM</a>
+            </li>
+            <li class="nav-item">
+              <img src="images\search.png" class="center" id="menu_search_icon">
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+      <!--3 column testimonials-->
+      <div class="row side_margin testimonial_bg">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Shappi_Khorsandi.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #ec1a2e;" class="testimonial_name">Shappi Khorsandi<br></span>
+             <span class="testimonial_text_red">Here’s why I ended up crying in the street without my shoes on</span> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Janet_Street_Porter.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #337e81;" class="testimonial_name">Janet Street-Porter<br></span>
+             <span class="testimonial_text_green">The idea of a ‘digital Christmas’ leaves me cold</span> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Patrick_Cockburn.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #ec1a2e;" class="testimonial_name">Patrick Cockburn<br></span>
+             <span class="testimonial_text_red">Lockdown restrictions do not work because many people ignore them</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!---2 column news part-->
+      <div class="row side_margin">
+        <div class="col-md-8">
+          <span class="red_box_over_img">UK POLITICS</span>
+          <img src="https://static.independent.co.uk/2020/10/23/09/rashford-marcus.jpg?width=640" style="width: 100%;">
+          <div class="image_over_box">
+            <h3 class="cursive_font image_over_box_text">Rashford piles pressure on PM over free meals as councils and businesses pledge food for children</h3>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Thousands sign petition against using public money for MPs’ food </span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Rashford has created an unstoppable movement. What will government do?</span> </div>
+            </div>
+            <div class="row" style="padding-bottom:7px ;">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Many people are in need thanks to Covid-19 – we should help them</span> </div>
+            </div>
+          </div>
+          <img src="images\play2.png" class="play_icon">
+          
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/07/08/20/web-sedwill-pa.jpg?width=375" style="width: 115%; height: 90%;">
+
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               <hr style="border-top: 1px solid grey; margin-top:-3px;">
+               <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/2020/10/24/00/newFile.jpg?width=375" style="width: 115%; height: 80%;">
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               <hr style="border-top: 1px solid grey; margin-top:-3px;">
+               <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/2020/10/23/17/newFile-12.jpg?width=375" style="width: 115%; height: 80%;">
+                  <img src="images/play2.png" style="width: 45px; height:45px; opacity: 0.8; margin-top: -60%;">
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               <hr style="border-top: 1px solid grey; margin-top:-3px;">
+               <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/2020/10/21/12/nigeria-protests-1.jpg?width=375" style="width: 115%; height: 80%;">
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               <hr style="border-top: 1px solid grey; margin-top:-3px;">
+               <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/2020/10/22/13/Trump-villages3.jpg?width=375" style="width: 115%; height: 80%;">
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               <hr style="border-top: 1px solid grey; margin-top:-3px;">
+               <div class="row">
+                <div class="col-md-4">
+                  <img src="https://static.independent.co.uk/2020/09/30/10/GettyImages-903258088.jpg?width=375" style="width: 115%; height: 80%;">
+                </div>
+                <div class="col-md-8">
+                  <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+                  <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+                  
+                </div>
+               </div>
+               
+
+            </div>
+           
+
+            <div class="col-md-4">
+              <div class="card" style="width: auto;">
+                <div class="card-body">
+                  <span style="font-size:small; font-weight:bold; color:#337e81;">Politics explained</span>
+                  <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+                  <span style="color:#337e81; font-weight: bold;">Sean O'Grady</span>
+                </div>
+                <img class="card-img-top" src="https://static.independent.co.uk/2020/10/23/13/newFile-2.jpg?width=375" alt="Card image cap">
+                
+              </div>
+              <div class="card" style="width: auto; margin-top: 40%;">
+                <div class="card-body">
+                  <span style="font-size:small; font-weight:bold; color:#337e81;">Politics explained</span>
+                  <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+                  <span style="color:#337e81; font-weight: bold;">Sean O'Grady</span>
+                </div>
+                <img class="card-img-top" src="https://static.independent.co.uk/2020/10/16/12/PRI159718997.jpg?width=375" alt="Card image cap">
+                
+              </div>
+            </div>
+          </div>
+         
+          
+        </div>
+        <div class="col-md-4">
+          <span class="red_box_over_img">CORONA VIRUS</span>
+          <img src="https://static.independent.co.uk/2020/10/23/19/PRI152881279.jpg?width=375" style="width: 100%; height:14% ">
+          <div class="sidebox_over"><h5 class="cursive_font image_over_box_text">‘Focused protection’ of elderly from Covid not viable, says Sage</h5></div>
+          <div class="row" style="padding-bottom:7px ;">
+            <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+            <div class="col-md-10"><span class="image_over_box_text_small_black" > Many people are in need thanks to Covid-19 – we should help them</span> </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/18/PRI164743847.jpg?width=375" style="width: 125%; height: 80%;">
+              <img src="images/play2.png" style="width: 45px; height:45px; opacity: 0.8; margin-top: -80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h3 class="image_over_box_text_small_black cursive_font" style="font-size:16px ;">Trump campaign says parents of separated children do not want them back</h3>
+              
+            </div>
+          
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/22/newFile-3.jpg?width=375" style="width: 125%; height: 80%;">
+              <img src="images/play2.png" style="width: 45px; height:45px; opacity: 0.8; margin-top: -80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h3 class="image_over_box_text_small_black cursive_font" style="font-size:16px ;">Trump campaign says parents of separated children do not want them back</h3>
+              
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+
+
+      <!---a row cover with trump picture-->
+      <div class="row side_margin">
+        <div class="dot_column" ></div>
+        <div class="heading_column">US election 2020</div>
+      </div>
+      <div class="row side_margin" >
+        <div class="col-md-6 "  style="margin-bottom:-20% ;">
+          <img src="https://static.independent.co.uk/2020/10/23/05/Trump-Debate3.jpg?width=640" style="width: 120%; height:55%">
+          <div class="two_col_box_over_img">
+            <h2 class="cursive_font image_over_box_text" style="margin-top:0px ;line-height:30px;">‘He’s losing it. He’s losing it’: Watching the final debate with Trump loyalists</h2>
+            <span style="color: white; line-height:18px !important;">President is fighting for his political life in Florida, writes Andrew Buncombe from a debate-watching party in Daytona Beach</span>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small">Nobody wears masks, the mayor is infected and Covid cases are soaring — why does this town still support Trump?</span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small">Trump’s niece berates president during final debate: ‘Only thing more grotesque than cruelty is the racism’</span> </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6"style="margin-bottom:-20% ;" >
+          <img src="https://static.independent.co.uk/2020/10/23/05/Trump-Debate3.jpg?width=640" style="height: 55%; width: 100%;">
+        </div>
+      </div>
+
+
+
+      <!---3 columns news part-->
+      <div class="row side_margin">
+        <div class="col-md-4">
+          <img src="https://static.independent.co.uk/2020/10/21/14/final%20%281%29.jpg?width=375" style="width: 100%; height:50% ">
+          <div class="sidebox_over"><h5 class="cursive_font image_over_box_text">‘Focused protection’ of elderly from Covid not viable, says Sage</h5></div>
+        
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/02/urn%3Apublicid%3Aap.org%3A17ff38b208ca43e9ac9dca1524bf4814.jpg?width=375" style="width: 115%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/04/trump-biden-debate-night-2.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---2 column news part-->
+      <div class="row side_margin">
+        <div class="col-md-8">
+          <span class="red_box_over_img">UK POLITICS</span>
+          <img src="https://static.independent.co.uk/2020/10/23/09/rashford-marcus.jpg?width=640" style="width: 100%;">
+          <div class="image_over_box">
+            <h3 class="cursive_font image_over_box_text">Rashford piles pressure on PM over free meals as councils and businesses pledge food for children</h3>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Thousands sign petition against using public money for MPs’ food </span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Rashford has created an unstoppable movement. What will government do?</span> </div>
+            </div>
+            <div class="row" style="padding-bottom:7px ;">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small"> Many people are in need thanks to Covid-19 – we should help them</span> </div>
+            </div>
+          </div>
+          <img src="images\play2.png" class="play_icon">
+          
+          
+        </div>
+        <div class="col-md-4">
+          <span class="red_box_over_img">CORONA VIRUS</span>
+          <img src="https://static.independent.co.uk/2020/10/23/19/PRI152881279.jpg?width=375" style="width: 100%; height:33% ">
+          <div class="sidebox_over"><h5 class="cursive_font image_over_box_text">‘Focused protection’ of elderly from Covid not viable, says Sage</h5></div>
+          <div class="row" style="padding-bottom:7px ;">
+            <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+            <div class="col-md-10"><span class="image_over_box_text_small_black" > Many people are in need thanks to Covid-19 – we should help them</span> </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/18/PRI164743847.jpg?width=375" style="width: 125%; height: 80%;">
+              <img src="images/play2.png" style="width: 45px; height:45px; opacity: 0.8; margin-top: -80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h3 class="image_over_box_text_small_black cursive_font" style="font-size:16px ;">Trump campaign says parents of separated children do not want them back</h3>
+              
+            </div>
+          
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/22/newFile-3.jpg?width=375" style="width: 125%; height: 80%;">
+              <img src="images/play2.png" style="width: 45px; height:45px; opacity: 0.8; margin-top: -80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h3 class="image_over_box_text_small_black cursive_font" style="font-size:16px ;">Trump campaign says parents of separated children do not want them back</h3>
+              
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+
+      <!---Coronavirus explained--->
+      <div class="row side_margin">
+        <div class="dot_column" ></div>
+        <div class="heading_column">Coronavirus explained</div>
+      </div>
+      <div class="row side_margin">
+        <div class="col-md-4">
+          <img src="https://static.independent.co.uk/2020/10/21/14/final%20%281%29.jpg?width=375" style="width: 100%; height:100% ">
+          <div class="sidebox_over"><h5 class="cursive_font image_over_box_text">‘Focused protection’ of elderly from Covid not viable, says Sage</h5></div>
+        
+        </div>
+        <div class="col-md-4">
+          
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+        
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---Premium--->
+      <div class="row side_margin" style="margin-top:5% ;">
+        <div class="dot_column" ></div>
+        <div class="heading_column">Premium</div>
+      </div>
+      <div class="row side_margin">
+        <div class="col-md-4">
+          <img src="https://static.independent.co.uk/2020/10/21/17/newFile-3.jpg?width=375" style="width: 100%; height:100% ">
+          <div class="sidebox_over"><h5 class="cursive_font image_over_box_text">‘Focused protection’ of elderly from Covid not viable, says Sage</h5></div>
+        
+        </div>
+        <div class="col-md-4">
+          
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+        
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+          <hr style="border-top: 1px solid grey; margin-top:-3px;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/2020/10/23/16/newFile-1.jpg?width=375" style="width: 120%; height: 80%;">
+            </div>
+            <div class="col-md-8">
+              <span style="font-size:small; font-weight:bold; color:red;">US POLITICS</span>
+              <h2 class="image_over_box_text_small_black cursive_font" style="font-size:20px ;">Trump campaign says parents of separated children do not want them back</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---a row cover with Stop the Illegal Wildlife Trade-->
+      <div class="row side_margin" style="margin-top:5% ;">
+        <div class="dot_column" ></div>
+        <div class="heading_column" >Stop the Illegal Wildlife Trade</div>
+      </div>
+      <div class="row side_margin" >
+        <div class="col-md-6 "  style="margin-bottom:-10% ;">
+          <img src="https://static.independent.co.uk/2020/10/15/14/Danna_Kinord_MG_1828_JuliaGunther.jpg?width=640" style="width: 120%; height:68%">
+          <div class="two_col_box_over_img">
+            <h2 class="cursive_font image_over_box_text" style="margin-top:0px ;line-height:30px;">‘He’s losing it. He’s losing it’: Watching the final debate with Trump loyalists</h2>
+            <span style="color: white; line-height:18px !important;">President is fighting for his political life in Florida, writes Andrew Buncombe from a debate-watching party in Daytona Beach</span>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small">Nobody wears masks, the mayor is infected and Covid cases are soaring — why does this town still support Trump?</span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-1"><img src="images\play2.png" class="play_icon_small" ></div>
+              <div class="col-md-11"><span class="image_over_box_text_small">Trump’s niece berates president during final debate: ‘Only thing more grotesque than cruelty is the racism’</span> </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6"style="margin-bottom:-10% ;" >
+          <img src="https://static.independent.co.uk/2020/10/15/14/Danna_Kinord_MG_1828_JuliaGunther.jpg?width=640" style="height: 68%; width: 100%;">
+        </div>
+      </div>
+      <!---Sponsored content-->
+      <div class="row side_margin">
+        <div class="dot_column" ></div>
+        <div class="heading_column">Sponsored content</div>
+      </div>
+      <div class="row side_margin">
+        <div class="col-md-3">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <span style="font-size:small; font-weight:bold; color:#ec1a2e;">SPONSORED</span>
+              <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+            </div>
+            <img class="card-img-top" src="https://static.independent.co.uk/2020/10/23/13/newFile-2.jpg?width=375" alt="Card image cap">
+            
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <span style="font-size:small; font-weight:bold; color: #ec1a2e;">SPONSORED</span>
+              <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+            </div>
+            <img class="card-img-top" src="https://static.independent.co.uk/2020/10/23/13/newFile-2.jpg?width=375" alt="Card image cap">
+            
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <span style="font-size:small; font-weight:bold; color: #ec1a2e">SPONSORED</span>
+              <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+            </div>
+            <img class="card-img-top" src="https://static.independent.co.uk/2020/10/23/13/newFile-2.jpg?width=375" alt="Card image cap">
+            
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <span style="font-size:small; font-weight:bold; color:#ec1a2e">SPONSORED</span>
+              <p class="card-text cursive_font card_custom_text">How will record early voting turnout affect the US election result?</p>
+            </div>
+            <img class="card-img-top" src="https://static.independent.co.uk/2020/10/23/13/newFile-2.jpg?width=375" alt="Card image cap">
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!---Sport-->
+      <div class="row side_margin">
+        <div class="dot_column" ></div>
+        <div class="heading_column">Sport</div>
+      </div>
+      <div class="row side_margin testimonial_bg">
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Shappi_Khorsandi.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #ec1a2e;" class="testimonial_name">Shappi Khorsandi<br></span>
+             <span class="testimonial_text_red">Here’s why I ended up crying in the street without my shoes on</span> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Janet_Street_Porter.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #337e81;" class="testimonial_name">Janet Street-Porter<br></span>
+             <span class="testimonial_text_green">The idea of a ‘digital Christmas’ leaves me cold</span> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://static.independent.co.uk/s3fs-public/Patrick_Cockburn.png" class="testimonial_img">
+            </div>
+            <div class="col-md-8">
+              <span style="color: #ec1a2e;" class="testimonial_name">Patrick Cockburn<br></span>
+             <span class="testimonial_text_red">Lockdown restrictions do not work because many people ignore them</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!----footer-->
+      <div class="row light_border" style="margin-top:5% ;padding-right: 5%;padding-left: 5%; padding-top:3% ;padding-bottom:3%; width: 101%; ">
+        <div class="col-md-2">
+          <img src="images/logo2.JPG"><br><br>
+          <span class="footer_header">GET IN TOUCH</span>
+          <ul  style="list-style-type:none; margin-left: -23%;">
+            <li class="foot_list_itmes">Contact Us</li>
+            <li class="foot_list_itmes">Jobs</li>
+          </ul>
+          <div class="row">
+            <div class="col-md-2"><img src="images/facebook.png" class="icon_large"></div>
+            <div class="col-md-2"><img src="images/twitter.png" class="icon_large"></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <span class="footer_header">OUR PRODUCTS
+          </span>
+          <ul  style="list-style-type:none; margin-left: -22%;">
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <span class="footer_header">Links
+          </span>
+          <ul  style="list-style-type:none; margin-left: -22%;">
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <span class="footer_header">EXTRAS
+          </span>
+          <ul  style="list-style-type:none; margin-left: -22%;">
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <span class="footer_header">PUBLICATIONS
+          </span>
+          <ul  style="list-style-type:none; margin-left: -22%;">
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+            <li class="foot_list_itmes">Archive</li>
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <span class="footer_header">LEGAL
+          </span>
+          <ul  style="list-style-type:none; margin-left: -22%;">
+            <li class="foot_list_itmes">Subscription</li>
+            <li class="foot_list_itmes">Donation</li>
+
+            <li class="foot_list_itmes">Install our app</li>
+            <li class="foot_list_itmes">Archive</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      
+</body>
+</html>

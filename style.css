@@ -1,0 +1,231 @@
+.side_margin{
+    margin-top: 1.2%;
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+}
+.cursive_font{
+    font-family: 'Independent Serif',serif;
+}
+.icon{
+    width:25px;
+    height: 25px;
+}
+#italic_font_support_us{
+    float: right;
+    margin-right:-20% ;
+    font-family: 'Independent Serif',serif; 
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 14px ;
+}
+#menu_Btn_red{
+    margin-left:60% ;
+    border: 2px solid #ec1a2e ;
+    background-color: white;
+    color: #ec1a2e;
+    border-radius: 5px;
+    
+}
+#menu_Btn_red:hover{
+    border: 2px solid #ba1422 ;
+    color: #ba1422;
+}
+#menu_Btn_black{
+    margin-left:20% ;
+    border: 2px solid #337e81 ;
+    background-color: white;
+    color: #337e81;
+    border-radius: 5px;
+}
+#menu_Btn_black:hover{
+    border: 2px solid black ;
+    color: black;
+}
+.light_border{
+    border: 1px solid #e3e3e3;
+}
+.light_border_sides{
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+.Bottom_menu_text{
+    color:black ;
+    font-size: small;
+    font-weight: bold;
+}
+.Bottom_menu_text_active{
+    border-bottom: 3px solid #ec1a2e;
+}
+.Bottom_menu_text:hover{
+    color: black !important;
+    border-bottom: 3px solid #ec1a2e;
+}
+#menu_search_icon{
+    width:25px;
+    height: 25px;
+    margin-left: 50%;
+    
+}
+#menu_search_icon:hover{
+    border-bottom: 3px solid #ec1a2e;
+}
+.testimonial_bg{
+    
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    background: #f5f5f5;
+
+}
+.testimonial_img{
+    width: 100px;
+    height: 100px;
+}
+.testimonial_text_red{
+    line-height: normal !important;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Independent Serif',serif
+}
+.testimonial_text_red:hover{
+    color: #ec1a2e;
+}
+.testimonial_text_green{
+    line-height: normal !important;
+    font-style: italic;
+    font-size: 16px;
+    line-height:18px;
+    font-weight: 700;
+    font-family: 'Independent Serif',serif
+}
+.testimonial_text_green:hover{
+    color: #337e81;
+}
+.testimonial_name{ 
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Independent Serif',serif
+}
+.play_icon{
+    margin-top: -65%;
+    z-index: 1 !important;
+    opacity: 0.9;
+    height: 75px;
+    width: 75px;
+}
+.play_icon_small{
+    z-index: 1 !important;
+    opacity: 0.9;
+    height: 20px;
+    width: 20px;
+    opacity: 1 !important;
+}
+.image_over_box{
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    margin-top: -30%;
+    padding-top:3%;
+    padding-right: 4%;
+    padding-left:2% ;
+    
+}
+.image_over_box_text{
+    margin-top:5% ;
+    color: white;
+    opacity: 1 !important;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.image_over_box_text:hover{
+    color: #ec1a2e;
+}
+.image_over_box_text_small{
+    color: white;
+    font-size: small;
+    opacity: 1 !important;
+    font-weight: bold;
+    line-height:18px !important;
+}
+.image_over_box_text_small_black{
+    color: black;
+    font-size: small;
+    opacity: 1 !important;
+    font-weight: bold;
+    line-height:18px;
+}
+
+.image_over_box_text_small_black:hover{
+    color:#ec1a2e;
+}
+.image_over_box_text_small:hover{
+    color: #ec1a2e;
+}
+.red_box_over_img{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 1px;
+    font-weight: bold;
+    background-color: #ec1a2e;
+    color: white;
+    font-size: small;
+}
+.sidebox_over{
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    margin-top: -23%;
+    padding-top:3%;
+    padding-right: 4%;
+    padding-left:2% ;
+}
+.card_custom_text{
+    font-weight:bold;
+    font-size: 18px;
+    line-height:18px;
+}
+.card_custom_text:hover{color:#337e81;}
+.two_col_box_over_img{
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+    margin-top: -54%;
+    margin-right: -6%;
+    padding-bottom: 3%;
+    padding-top:3%;
+    padding-right: 4%;
+    padding-left:2% ;
+}
+.dot_column {
+    float: left;
+    width: 20px;
+    background-color:  #ec1a2e;
+    border-radius: 100%; 
+    height: 20px; 
+    margin-left: 1%; 
+  }
+.heading_column{
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left:10px ;
+    margin-top: -8px;
+}
+.footer_header{
+    padding-top:3% !important;
+    padding-bottom:3% !important;
+    font-weight: bold;
+}
+.foot_list_itmes{
+    font-size: small;
+    line-height: 25px;
+    font-weight: 500;
+}
+.foot_list_itmes:hover{
+    color:  #ec1a2e;
+}
+.icon_large{
+    width:31px;
+    height: 31px;
+}
